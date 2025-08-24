@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        .portfolio-container {
+            min-height: 60vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Meu Portfólio</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container portfolio-container">
+                <h2 class="section-title">Meu Portfólio</h2>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="projeto1.jpg" alt="Projeto 1">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Simulador de cadastro</h3>
+                            <p>Projeto focado em cadastro, consulta e exclusão de usuários.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="embreve.jpeg" alt="Projeto 2">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Em breve</h3>
+                            <p>Novo projeto em desenvolvimento.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="embreve.jpeg" alt="Projeto 3">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Em breve</h3>
+                            <p>Novo projeto em desenvolvimento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
