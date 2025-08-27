@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        main {
+            flex: 1;
+        }
+        
+        .portfolio-container {
+            min-height: 60vh;
+        }
+        
+        .portfolio-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .portfolio-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Meu Portfólio</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container portfolio-container">
+                <h2 class="section-title">Meu Portfólio</h2>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="Imagens\projeto1.jpg" alt="Projeto 1">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Simulador de cadastro</h3>
+                            <p>Projeto focado em cadastro, consulta e exclusão de usuários.</p>
+                            <a href="https://github.com/NelsonTavaresJR/Simulador-de-compras/blob/b40a068ab6938e5998fbd1a5919db48c236b3c3d/Simulador%20de%20cadastro.py" 
+                               target="_blank" 
+                               class="portfolio-link">
+                                Ver Projeto no GitHub
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="Imagens\embreve.jpeg" alt="Projeto 2">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Em breve</h3>
+                            <p>Novo projeto em desenvolvimento.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="Imagens\embreve.jpeg" alt="Projeto 3">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Em breve</h3>
+                            <p>Novo projeto em desenvolvimento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
